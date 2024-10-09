@@ -47,7 +47,7 @@ while (i > 7) {
 }
 ```
 
-##Exercice 6 :
+## Exercice 6 :
 ```c
 int i = 1;
 while (i < 4) {
@@ -69,7 +69,7 @@ int i = 0;
 while (i < 8) {
     printf("%d ", i * 2);
     if( i % 3 == 0 )
-      printf("\n);
+      printf("\n");
     i++;
 }
 ```
