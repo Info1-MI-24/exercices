@@ -1,5 +1,7 @@
 # Affichage
 
+Référence théorique : [handout](https://heig-tin-info.github.io/handout/content/stdio.html?highlight=printf#printf¨)
+
 Quel est l'affichage **exact** des codes suivants ?
 > les éspaces doivent être représentés
 
