@@ -13,8 +13,11 @@ while (i < 3) {
 
 ## Exercice 2 :
 ```c
-for (int i = 5; i < 8; i++) {
-    printf("%d,", i);
+for (int i = 5; i < 9; i++) {
+    if( i < 8 )
+        printf("%d,", i);
+    else
+        printf("%d", i);
 }
 ```
 
