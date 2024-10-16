@@ -6,11 +6,11 @@
 
 1. Demande à l'utilisateur de saisir une chaîne de caractères **exactement dans ce format** : `X123Y456Z789`.
    
-   - Le format est fixe : il doit toujours y avoir une lettre suivie de 3 chiffres, répétée trois fois avec les lettres `X`, `Y`, et `Z`.
+   - Le format est fixe : il doit toujours y avoir une lettre suivie d'un nombre, répétée trois fois avec les lettres `X`, `Y`, et `Z`.
    
-2. Le programme doit extraire les trois groupes de nombres (les chiffres) et les afficher **séparément**.
+2. Le programme doit extraire les trois nombres et les afficher **séparément**.
 
-3. Si la chaîne saisie ne correspond pas exactement au format imposé (`X123Y456Z789`), le programme doit demander à l'utilisateur de recommencer jusqu'à ce qu'une saisie correcte soit fournie.
+3. Si la chaîne saisie ne correspond pas exactement au format imposé (`X123Y6Z1289`), le programme doit demander à l'utilisateur de recommencer jusqu'à ce qu'une saisie correcte soit fournie.
 
 4. Vous utiliserez uniquement des fonctions de base telles que `scanf` et des boucles comme `while` ou `for`. Aucune fonction externe n'est autorisée pour cet exercice.
 
@@ -25,7 +25,7 @@
 ```plaintext
 Veuillez entrer une chaîne dans le format 'X123Y456Z789' : A12B3
 Erreur : la chaîne doit être au format exact 'X123Y456Z789'. Veuillez recommencer.
-Veuillez entrer une chaîne dans le format 'X123Y456Z789' : X123Y456Z789
-X : 123
-Y : 456
-Z : 789
+Veuillez entrer une chaîne dans le format 'X1Y456Z79' : X13Y1000Z79
+X : 13
+Y : 1000
+Z : 79
