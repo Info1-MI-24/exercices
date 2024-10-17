@@ -116,7 +116,8 @@ for (int i = 5; i <= 10; i++) {
 
 ## Exercice 11 :
 
-```cint i = 0;
+```c
+int i = 0;
 while (i < 10) {
     if (i == 5) {
         i++;
