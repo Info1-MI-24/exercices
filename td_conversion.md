@@ -44,5 +44,5 @@ Conversion de Fahrenheit à Celsius :
 
 Pour réaliser les conversions, utilisez les équations suivantes :
 
-De Celsius à Fahrenheit : F = C * 9/5 + 32
-De Fahrenheit à Celsius : C = (F - 32) * 5/9
+- De Celsius à Fahrenheit : F = C * 9/5 + 32
+- De Fahrenheit à Celsius : C = (F - 32) * 5/9
