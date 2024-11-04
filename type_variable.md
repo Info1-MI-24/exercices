@@ -7,6 +7,8 @@ Donnez le type de chaque valeur ci-dessous.
 4. `"a"`
 5. `3.14`
 6. `0xAB`
+7. `12 > 34`
+8. `-4 && 5`
    
 ## Exercice 2 : Vérifier la Validité des Noms de Variables
 Pour chaque nom de variable ci-dessous, indiquez s'il est valide en C ou non. Expliquez pourquoi si ce n'est pas valide.
