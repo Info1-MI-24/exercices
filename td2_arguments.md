@@ -3,6 +3,8 @@
 Dans cet exercice, vous allez réaliser un programme en C qui travaille avec les arguments de la ligne de commande.
 Le programme prend un argument obligatoire qui est un prénom et affiche le message "Bonjour <prénom>".
 
+Si des options ou des arguments non valides sont saisis, le programme se termine avec un code d'erreur égal à 5.
+
 ### Fonctionnalités attendues :
 
 1. **Affichage de base** : 
