@@ -118,6 +118,6 @@ Le programme prend un argument obligatoire qui est un prénom et affiche le mess
     ./programme --help                # Affiche l'aide
     ./programme John --help           # Affiche l'aide
     ./programme John -m "Salut"       # Salut John
-    ./programme John -m "Salut" -l    # Salut John, comment ça va ?
+    ./programme John -m "Salut" -l    # Salut John (option -l ignorée) ?
     ./programme John -m "Hey" -e      # Hey John (option -e ignorée)
     ```
