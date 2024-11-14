@@ -49,12 +49,22 @@ int main(int argc, char* argv[]){
         }
         else if( strcmp(argv[i], "-m") == 0 ){ // check si message perso
             pos_message = i+1;
+            if( pos_message >= argc ){ // controle si le message est bien présent
+                printf("Il manque le message");
+                return return_error_arg;
+            }
             i++; // pour passer le message et aller à l'argument suivant ./app John -m Test -e
         }
         else{
             printf("Option ou argument non valide détecté");
             return return_error_arg;
         }
+    }
+
+    // controle si le prénom a bien été entrée
+    if( pos_firstname == 0 ){
+        printf("Il manque le prénom");
+        return return_error_arg;
     }
 
 
