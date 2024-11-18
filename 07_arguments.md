@@ -152,7 +152,8 @@ Ligne de commande : ./prg 12 foo bar
 - argv[1] : 12
 - argv[2] : foo
 - argv[3] : bar
-Types :
+  
+**Types :**
 - argv[0] : chaines de caractères ou char*
 - argv[1] : chaines de caractères ou char*
 - argv[2] : chaines de caractères ou char*
@@ -174,7 +175,7 @@ Exemple :
 Ligne de commande : ./programme un deux trois
 - Nombre d'arguments : 3
   
-La réponse 4 ne serait pas fausse, car il est possible de considérer le nom du programme comme un argument.
+>La réponse 4 ne serait pas fausse, car il est possible de considérer le nom du programme comme un argument.
 
 
 ### 3. Identifier un argument spécifique
@@ -301,10 +302,10 @@ int main(int argc, char *argv[]) {
 Ligne de commande : ./programme un 12 -45 toto
 - Nombre d'arguments : 4
 
-La réponse 5 ne serait pas fausse, car il est possible de considérer le nom du programme comme un argument.
+>La réponse 5 ne serait pas fausse, car il est possible de considérer le nom du programme comme un argument.
 
 ### 12. Nombre d'arguments
 Ligne de commande : ./programme un deux trois "bonjour le monde"
 - Nombre d'arguments : 4
 
-La réponse 5 ne serait pas fausse, car il est possible de considérer le nom du programme comme un argument.
+>La réponse 5 ne serait pas fausse, car il est possible de considérer le nom du programme comme un argument.
