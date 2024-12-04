@@ -120,3 +120,42 @@ else{
     printf("not found\n");
 }
 ```
+
+## Ex 8
+Ecrire une fonction qui trouve la valeur la plus proche d'un nombre donné dans un tableau d'entiers.
+Si la valeur la plus proche est trouvée, la fonction retourne `true` et la valeur est disponible par référence.
+Sinon, la fonction retourne `false`.
+
+```c
+int tab[] = {1, 2, 3, 4, 5, 10, 20, 30, 40, 50};
+
+// Ajouter le code pour trouver la valeur la plus proche de 17
+
+const bool found = ???
+
+if(found){
+    printf("found = %d\n", found);
+}
+else{
+    printf("not found\n");
+}
+```
+
+## Ex 9
+Ecrire une fonction qui cherche la valeur dans un tableau d'entiers qui apparaît le plus de fois.
+
+Le nombre d'occurences ainsi que la valeur doivent être disponibles par référence.
+
+```c
+
+int tab[] = {1, 2, 3, 4, 5, 1, 2, 3, 4, 5, 1, 2, 3, 4, 5};
+
+// Ajouter le code pour trouver la valeur qui apparaît le plus de fois
+
+int value;
+int occurences;
+
+most_occurences() ???
+
+printf("value = %d, occurences = %d\n", value, occurences);
+```
