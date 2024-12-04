@@ -98,3 +98,25 @@ char str[] = "Hello World!";
 
 printf("str = %s\n", str);
 ```
+
+## Ex 7
+Ecrire une fonction qui donne la première position d'un caractère dans une chaîne de caractères.
+Cette fonction retoure `true` si le caractère est trouvé, `false` sinon.
+Il faut passer une référence à la position du caractère trouvé.
+
+```c
+char str[] = "Hello World!";
+
+// Ajouter le code pour trouver la position du caractère 'W'
+
+int pos;
+
+const bool found = ???
+
+if(found){
+    printf("found at pos = %d\n", pos);
+}
+else{
+    printf("not found\n");
+}
+```
