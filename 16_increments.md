@@ -82,7 +82,7 @@ int main() {
     char tab[] = {'A', 'B', 'C', 'D', 'E'};
     int i;
     for(i = 0; i < 5; i++) {
-        printf("tab[%d] = %c\n", i, tab[i++]);
+        printf("Val = %c\n", tab[i++]);
     }
     return 0;
 }
