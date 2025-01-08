@@ -17,7 +17,11 @@ Quel est l'affichage du code suivant ?
 ```C
 int b=0;
 while( ++b < 10 ){}
-printf("Val b : %d",b);
+printf("Val b1 : %d",b);
+
+int b=0;
+while( b++ < 10 ){}
+printf("Val b2 : %d",b);
 ```
 
 ## Ex 3
@@ -80,6 +84,26 @@ int main() {
     for(i = 0; i < 5; i++) {
         printf("tab[%d] = %c\n", i, tab[i++]);
     }
+    return 0;
+}
+```
+
+
+## Ex 8
+Vous devez compléter le code en langage C ci-dessous pour qu'il affiche le contenu d'un tableau de nombres à virgule flottante (type double). Le tableau contient déjà des valeurs, et vous devez utiliser une boucle avec l'opérateur ++ pour parcourir le tableau et afficher ses éléments.
+
+```c
+#include <stdio.h>
+
+int main() {
+    double tableau[] = {1.1, 2.2, 3.3, 4.4, 5.5};
+    int taille = ____________________;
+    int i = 0;
+
+    do{
+        printf("%.1f\n", __________________);
+    }while(i < taille);
+
     return 0;
 }
 ```
