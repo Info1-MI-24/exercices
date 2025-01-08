@@ -2,16 +2,18 @@
 Un objet tombe en chute libre, mais la présence d'un frottement de l'air proportionnel à sa vitesse doit être prise en compte.
 
 1. Vous devez écrire un programme en C pour calculer le temps de chute d'un objet d'une hauteur donnée.
-2. La force de frottement est modélisée comme étant proportionnelle à la vitesse de l'objet : $F_f = -k \cdot v, où ( k )$ est une constante de frottement.
+2. La force de frottement est modélisée comme étant proportionnelle à la vitesse de l'objet : $`F_f = -k \cdot v, où ( k )`$ est une constante de frottement.
 3. La formule de la vitesse instantanée est donnée par :
-   $$ v(t) = \frac{g}{k}(1 - e^{-k \cdot t}) $$
+
+   $$v(t) = \frac{g}{k}(1 - e^{-k \cdot t})$$
+
    où :
    - \( g \) est l'accélération due à la gravité (9.81 m/s²).
    - \( k \) est la constante de frottement (valeur donnée par l'utilisateur).
    - \( t \) est le temps.
 
-4. Le programme doit calculer le temps approximatif pour que l'objet atteigne une vitesse maximale ou une position proche du sol.
-5. Utilisez une méthode itérative (par ex. boucle `while`) pour simuler la chute.
+6. Le programme doit calculer le temps approximatif pour que l'objet atteigne une position proche du sol.
+7. Utilisez une méthode itérative (par ex. boucle `while`) pour simuler la chute.
 
 ### Consignes :
 - Demandez à l'utilisateur de saisir :
