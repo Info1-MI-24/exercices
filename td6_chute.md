@@ -18,8 +18,8 @@ Un objet tombe en chute libre, mais la présence d'un frottement de l'air propor
 ### Consignes :
 - Demandez à l'utilisateur de saisir :
   - La hauteur initiale de l'objet (en mètres).
-  - La constante \( k \) de frottement.
-- Utilisez des petits pas de temps (\( \Delta t \)) pour simuler la chute.
+  - La constante $\( k \)$ de frottement.
+- Utilisez des petits pas de temps $\( \Delta t \)$ pour simuler la chute.
 - Arrêtez la simulation lorsque l'objet atteint le sol ou une vitesse terminale.
 
 ### Exemple de sortie attendue :
